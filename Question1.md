@@ -63,7 +63,7 @@ _GET_ `templates/:companyId/`
 Response-200
 
 ```json
-{ "templates": [list of all templates ]}
+{ "templates": "[list of all templates ]"}
 ```
 _GET_ `templates/:templateId/`
 
