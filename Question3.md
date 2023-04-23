@@ -11,7 +11,7 @@ The implementation of this login is a bit more complicated than the typical logi
 - Write code using any front-end framework based on your understanding of the API to interact with it. You can make use of the API's endpoints to make API calls and fetch data.
 
 - Develop a user-friendly interface that follows design principles like simplicity, consistency, and readability for a better user experience. You should use a color scheme that is easy on the eyes, legible text, clear and concise labels and instructions, and display feedback to the user by showing success or error messages. Note that you do not need to design the login and logout pages
-
+- Marks will be based on the structure of the codebase
 ### Notice
 You are required to deploy the project on GitHub and complete it within 7 days from the date of question selection. You must share both the codebase link and the deployed link on GitHub. Based on your performance, you will be considered for the next step in the interview process.
 
@@ -45,3 +45,6 @@ You are required to deploy the project on GitHub and complete it within 7 days f
         - Once you get a response from the server display the data in a proper way and home page.
         - To logout , redirect to {logout_URL} .
 4. Build a beautiful home page as your wish .
+
+### Conclusion :
+Deploy your project onto any deployment service provider . 

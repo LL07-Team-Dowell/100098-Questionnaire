@@ -9,6 +9,7 @@ The mentioned API is designed to facilitate the creation of a new template for y
 - Develop a user-friendly interface for a better user experience.
 - Once you post the required parameters to the API, it will return an editor link. You can then use that link to display the editor in an iframe.
 - Display all templates that have been created in your company and when that is clicked open the template that you have created.
+- Marks will be based on the structure of the codebase
 ### Notice
 You are required to deploy the project on GitHub and complete it within 7 days from the date of question selection. You must share both the codebase link and the deployed link on GitHub. Based on your performance, you will be considered for the next step in the interview process.
 ### API Documentation
@@ -91,3 +92,5 @@ Response-500
 {"message": "Failed to fecth template" }
 ```
 
+### Conclusion :
+Deploy your project onto any deployment service provider . 
