@@ -24,28 +24,27 @@ You are required to deploy the project on GitHub and complete it within 7 days f
     - Login_api : `https://100014.pythonanywhere.com/api/userinfo/`
     - client_admin_api : `https://100014.pythonanywhere.com/api/userinfo/`
     - logout_URL : `https://100014.pythonanywhere.com/sign-out` 
-3. Create 3 functions 
+3. Create 2 functions 
     - home
-    - page
     - logout
-4. logic (follow step2 to understand this statement) :
+4. Logic (follow step2 to understand this statement) :
     - The home function will be your base URL . 
     - if the URL doesnot has a session_id then redirect to {login_URL}
     - After an user sucessful logged in ,Now we have two methods :
-        - if the URL looks like `http://127.0.0.1:8000/?session_id={}`
-        - Post the session_id to {login_api}
+        - if the URL looks like `http://127.0.0.1:8000/?session_id={}` , post the session_id to {login_api}
             ```json
             {
                 "session_id":""
             }
             ```
-        - Once you get a response from the server display the data in a proper way.
+        - Once you get a response from the server , check if it has portfolio object , if it has then display all data and home page , else ask user to create a new portfolio and the link to be given is `http://100093.pythonanywhere.com/?session_id={}`
 
-        - if the URL looks like `http://127.0.0.1:8000/?session_id={}/id={}`
-        - Post the session_id to {client_admin_api}
+        - if the URL looks like `http://127.0.0.1:8000/?session_id={}/id={}` , post the session_id to {client_admin_api}
             ```json
             {
                 "session_id":""
             }
             ```
-        - Once you get a response from the server display the data in a proper way.
+        - Once you get a response from the server display the data in a proper way and the home page.
+    - To logout , redirect to {logout_URL}
+5. Build a beautiful home page as your wish .
